@@ -1,0 +1,88 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    color: white;
+    background-image: url('C:\Users\MH\Desktop\react\ecommerce\public\images\about-banner.jpg'); /* Background image */
+    background-size: cover; /* Image ko pura cover karne ke liye */
+    background-position: center; /* Center me rakhne ke liye */
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.our-story {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.our-story h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: #fff;
+}
+
+.box {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+

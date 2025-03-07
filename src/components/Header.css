@@ -1,0 +1,129 @@
+.topbar {
+  background-color: #1a202c; /* Dark Gray (Tailwind bg-gray-900) */
+  color: #d1d5db; /* Light Gray (Tailwind text-gray-300) */
+  font-size: 14px; /* Tailwind text-sm */
+  padding: 8px 40px; /* Tailwind py-2 px-10 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .left-section,
+.topbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Tailwind space-x-4 */
+}
+
+.topbar .right-section a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.topbar .right-section a:hover {
+  color: white;
+}
+
+.topbar i {
+  margin-right: 5px;
+}
+
+
+/* Header container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1d1d1d;
+  }
+  
+  .logo span {
+    color: #007bff;
+  }
+  
+  /* Navigation */
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Search & Icons Container */
+  .search-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: #f9f9f9;
+  }
+  
+  .search-container input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    font-size: 14px;
+    width: 180px;
+  }
+  
+  .search-container i {
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  /* Icons */
+  .icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icons button:hover {
+    color: #007bff;
+  }
+  
