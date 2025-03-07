@@ -6,7 +6,7 @@
 
 .hero {
     color: white;
-    background-image: url('C:\Users\MH\Desktop\react\ecommerce\public\images\about-banner.jpg'); /* Background image */
+ background-color: #333;
     background-size: cover; /* Image ko pura cover karne ke liye */
     background-position: center; /* Center me rakhne ke liye */
     text-align: center;
